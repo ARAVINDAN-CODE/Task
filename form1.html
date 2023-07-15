@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>APPLICATION FORM</title>
+    </head>
+    <body>
+        <h1>01.Application Form</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+            <br><label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your Email"><br>
+            <br><label for="gender">Gender:</label>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female"><br>
+            <br><label for="skills">CHOOSE SKILLS</label><br>
+            <label for="html">HTML</label>
+            <input type="checkbox" id="html" name="skills" value="html">
+            <label for="css">CSS</label>
+            <input type="checkbox" id="css" name="skills" value="css">
+            <label for="js">JS</label>
+            <input type="checkbox" id="js" name="skills" value="js">
+            <label for="bootstrap">Bootstrap</label>
+            <input type="checkbox" id="bootstrap" name="skills" value="bootstrap">
+            <label for="react">React</label>
+            <input type="checkbox" id="react" name="skills" value="react"><br>
+            <br><label for="jobtype">JOB TYPE</label>
+            <select id="jobtype" name="jobtype">
+                <option value="select">---SELECT OPTION ---</option>
+                <option value="fdeveloper">FRONT END DEVELOPER</option>
+                <option value="bdeveloper">BACK END DEVELOPER</option>
+                <option value="csecurity">CYBER SECURITY</option>
+                <option value="uiux">UI/UX DESIGNER</option>
+            </select>
+            <br><label for="browser">CHOOSE YOUR BROWSER FROM THE LIST</label>
+            <select id="browser" name="browser">
+                <option value="select">---SELECT OPTION ---</option>
+                <option value="chrome">GOOGLE CHROME</option>
+                <option value="edgw">MICROSOFT EDGE</option>
+                <option value="firefox">FIREFOX</option>
+                <option value="brave">BRAVE</option>
+            </select>
+            <br><textarea name="details" rows="4" cols="20" placeholder="Give a brief summary about you"></textarea>
+            <br><input type="submit">
+        </form>
+    </body>
+</html>
