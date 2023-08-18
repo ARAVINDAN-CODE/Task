@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  text-align: center;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0%;
+}
+
+.App-header {
+
+  padding: 20px;
+  color: rgb(254, 245, 252);
+}
+
+.About, .Menu {
+  margin: 40px;
+  background-color: #dddcdcef;
+}
+
+.Menu-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin:10px ;
+}
+
+.Footer {
+  background-color: #282c34;
+  padding: 10px;
+  color: white;
+  position: absolute;
+  bottom: auto;
+  width: 100%;
+}
+.nav{
+  background-color: rgb(53, 52, 52);
+  color:azure;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:2rem;
+  padding: 2% 1rem;
+}
+.nav ul{
+  list-style: none;
+  margin:0%;
+  padding: 0%;
+  display: flex ;
+  gap:1rem;
+  font-size: 95%;
+  
+}
+.nav li:hover{
+  color:rgb(191, 168, 244);
+  }
+.nav li.active{
+  color:rgb(233, 233, 75);
+ 
+  }
+.nav a{
+  color: inherit;
+  text-decoration: none;
+  display: flex;
+}
