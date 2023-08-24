@@ -1,0 +1,53 @@
+nav{
+    background-color: rgb(181, 178, 178);
+    padding:10%;
+}
+.intro{
+    margin: 4%;
+    font-size: 160%;
+}
+div .row{
+    margin-top:3%;
+    margin-bottom:5%;
+}
+section .col{
+    font-size: 120%;
+}
+.distimg{
+    width:45%;
+}
+.disttext{
+    padding: 10px;
+    text-align: justify;
+    font-weight: 400;
+}
+#chennai{
+    font-size: larger;
+}
+#Hogenakkal{
+    font-size: large;
+}
+#Kanyakumari{
+    font-size: larger;
+}
+#Kodaikanal{
+    font-size: large;
+}
+#Kumbakonam{
+    font-size: large;
+}
+#Madurai{
+    font-size: large;
+}
+#Ooty{
+    font-size: large;
+}
+#Rameshwaram{
+    font-size:large
+}
+#Theni{
+    font-size:large;
+}
+#Yercaud{
+    font-size: large;
+}
